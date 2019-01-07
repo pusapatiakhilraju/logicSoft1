@@ -1653,7 +1653,7 @@ class FGMembersite
             $this->HandleDBError("Error inserting data to the table\nquery:$insert_query");
             return false;
         }  
-        
+             
         $depot_id = mysql_insert_id($this->connection);
         
         //$confirmcode = 'n';
